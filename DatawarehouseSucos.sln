@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatawarehouseSucos", "DatawarehouseSucos\DatawarehouseSucos.sqlproj", "{FE1276F6-FB1A-47A8-95A3-B019D53440EC}"
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "CargaDatawarehouse", "CargaDatawarehouse\CargaDatawarehouse.dtproj", "{4427F850-B1AF-4A2B-8C86-57E02D61D215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1276F6-FB1A-47A8-95A3-B019D53440EC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4427F850-B1AF-4A2B-8C86-57E02D61D215}.Debug|Any CPU.ActiveCfg = Development
+		{4427F850-B1AF-4A2B-8C86-57E02D61D215}.Debug|Any CPU.Build.0 = Development
+		{4427F850-B1AF-4A2B-8C86-57E02D61D215}.Development|Any CPU.ActiveCfg = Development
+		{4427F850-B1AF-4A2B-8C86-57E02D61D215}.Development|Any CPU.Build.0 = Development
+		{4427F850-B1AF-4A2B-8C86-57E02D61D215}.Release|Any CPU.ActiveCfg = Development
+		{4427F850-B1AF-4A2B-8C86-57E02D61D215}.Release|Any CPU.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70A7AEBD-3AC2-45FD-AB7F-35B290B027C9}
+	EndGlobalSection
+EndGlobal
